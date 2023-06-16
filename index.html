@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>iFixYourMac</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
+    >
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <h1 class="m-0">
+          <img src="Images/ifix3.png" alt="">
+        </h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-3 py-lg-0">
+          <a href="index.html" class="nav-item nav-link active">Accueil</a>
+          <a href="about.html" class="nav-item nav-link">A propos</a>
+          <a href="service.html" class="nav-item nav-link">Nos Services</a>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Nos produits</a
+            >
+            <div class="dropdown-menu bg-light m-0">
+              <a href="iphone.html" class="dropdown-item">Iphones</a>
+              <a href="macbook.html" class="dropdown-item">Macbook</a>
+              <a href="accessoire.html" class="dropdown-item">Accessoires</a>
+             
+            </div>
+          </div>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100" src="Images/i9.jpeg" alt="Image" />
+            <div class="carousel-caption">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-10">
+                    <h5
+                      class="text-light text-uppercase mb-3 animated slideInDown"
+                    >
+                    iFixYourMac
+                    </h5>
+                    <h1 class="display-2 text-light mb-3 animated slideInDown">
+                      BRINGS YOUR MAC BACK TO LIFE
+                    </h1>
+                    <ol class="breadcrumb mb-4 pb-2">
+                      <li class="breadcrumb-item fs-5 text-light">
+                        Reparation
+                      </li>
+                      <li class="breadcrumb-item fs-5 text-light">
+                        Configuration
+                      </li>
+                      <li class="breadcrumb-item fs-5 text-light">
+                        Vente
+                      </li>
+                    </ol>
+                    <a href="about.html" class="btn btn-primary py-3 px-5"
+                      >plus de détails</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="Images/i14.jpeg" alt="Image" />
+            <div class="carousel-caption">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-10">
+                    <h5
+                      class="text-light text-uppercase mb-3 animated slideInDown"
+                    >
+                    iFixYourMac
+                    </h5>
+                    <h1 class="display-2 text-light mb-3 animated slideInDown">
+                      BRINGS YOUR MAC BACK TO LIFE
+                    </h1>
+                    <ol class="breadcrumb mb-4 pb-2">
+                      <li class="breadcrumb-item fs-5 text-light">
+                        Reparation
+                      </li>
+                      <li class="breadcrumb-item fs-5 text-light">
+                        Configuration
+                      </li>
+                      <li class="breadcrumb-item fs-5 text-light">
+                        Vente
+                      </li>
+                    </ol>
+                    <a href="contact.html" class="btn btn-primary py-3 px-5"
+                      >Contactz-Nous</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div
+              class="position-relative overflow-hidden ps-5 pt-5 h-100"
+              style="min-height: 400px"
+            >
+              <img
+                class="position-absolute w-100 h-100"
+                src="Images/i5.jpeg"
+                alt=""
+                style="object-fit: cover"
+              />
+              <div
+                class="position-absolute top-0 start-0 bg-white pe-3 pb-3"
+                style="width: 200px; height: 200px"
+              >
+                <div
+                  class="d-flex flex-column justify-content-center text-center bg-danger h-100 p-3"
+                >
+                  
+                  <h4 class="text-white">Plusieurs</h4>
+                  <h4 class="text-white">Années</h4>
+                  <h4 class="text-white mb-0">d'Experience</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="h-100">
+              <div class="border-start border-5 border-danger ps-4 mb-5">
+                <h6 class="text-body text-uppercase mb-2">iFixYourMac</h6>
+                <h1 class="display-6 mb-0">
+                  Qui Sommes-Nous ?
+                </h1>
+              </div>
+              <p>
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+                sed stet lorem sit clita duo justo magna dolore erat amet
+              </p>
+              <p class="mb-4">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+                sed stet lorem sit clita duo justo magna dolore erat amet
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Facts Start -->
+    <div class="container-fluid my-5 p-0">
+      <div class="row g-0">
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+          <div class="position-relative">
+            <img class="img-fluid w-100" src="Images/i16.jpg" alt="" />
+            <div class="facts-overlay">
+              <h1 class="display-1">01</h1>
+              <h4 class="text-white mb-3">Efficacité</h4>
+              <p class="text-white">
+                Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit
+                clita duo justo erat amet
+              </p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+          <div class="position-relative">
+            <img class="img-fluid w-100" src="Images/i16.jpg" alt="" />
+            <div class="facts-overlay">
+              <h1 class="display-1">02</h1>
+              <h4 class="text-white mb-3">Rapidité</h4>
+              <p class="text-white">
+                Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit
+                clita duo justo erat amet
+              </p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="position-relative">
+            <img class="img-fluid w-100" src="Images/i16.jpg" alt="" />
+            <div class="facts-overlay">
+              <h1 class="display-1">03</h1>
+              <h4 class="text-white mb-3">Confiance</h4>
+              <p class="text-white">
+                Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit
+                clita duo justo erat amet
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+          <div class="position-relative">
+            <img class="img-fluid w-100" src="Images/i16.jpg" alt="" />
+            <div class="facts-overlay">
+              <h1 class="display-1">04</h1>
+              <h4 class="text-white mb-3">Sécurité</h4>
+              <p class="text-white">
+                Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit
+                clita duo justo erat amet
+              </p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Facts End -->
+
+   
+
+    
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="border-start border-5 border-danger ps-4 mb-5">
+              <h6 class="text-body text-uppercase mb-2">iFixYourMac</h6>
+              <h1 class="display-6 mb-0">Avis Clients</h1>
+            </div>
+            <p class="mb-4">
+              Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+              ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+              dolore erat amet
+            </p>
+
+            <span><a href="https://search.google.com/local/reviews?placeid=ChIJ228zXYXTpw0RoZlGWEk1yXQ&q=iFixYourMac&hl=fr&gl=MA">Voir tous les avis...</a></span>
+
+            
+          </div>
+          <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="owl-carousel testimonial-carousel">
+              <div class="testimonial-item">
+                <img
+                  class="img-fluid mb-4"
+                  src="Images/i19.jpeg"
+                  alt=""
+                />
+                <p class="fs-5">
+                  Parfois vous avez le sentiment d'être au bon endroit ! C'est le cas pour cette jeune équipe de professionnelles. Merci au chirurgien Mac de m'avoir rendu mon outil de travail dans un temps record ( 48h ), à un super  tarif, et un client heureux au final!
+                  Je recommande vivement
+                  20/10
+                </p>
+                <div
+                  class="bg-danger mb-3"
+                  style="width: 60px; height: 5px"
+                ></div>
+                <h5>Stefano Berca</h5>
+                <span><a href="https://g.co/kgs/w28NvH ">Voir...</a></span>
+              </div>
+              <div class="testimonial-item">
+                <img
+                  class="img-fluid mb-4"
+                  src="Images/i20.png"
+                  alt=""
+                />
+                <p class="fs-5">
+                  Les gars sont vraiment professionnels, je pensais ne plus jamais récupérer mes données, je l’ai emmené chez plusieurs personnes, ils n’ont pas su le réparer. Mais Brahim a réussi! Merci beaucoup! Vraiment !! Je vous le recommande vivement !!! Si vous avez un mac à réparer, ne réfléchissez pas deux fois, allez-y chez IFIXYOURMAC !
+                </p>
+                <div
+                  class="bg-danger mb-3"
+                  style="width: 60px; height: 5px"
+                ></div>
+                <h5>Salma Lay</h5>
+                <span><a href="https://g.co/kgs/LtvfMT ">Voir...</a></span>
+              </div>
+
+              <div class="testimonial-item">
+                <img
+                  class="img-fluid mb-4"
+                  src="Images/i19.jpeg"
+                  alt=""
+                />
+                <p class="fs-5">
+                  Excellent service. Mon mac a été réparé en une heure. Plusieurs réparations secondaires ont été effectuées gratuitement aussi pour remettre mon mac en état. Je recommande vivement le service IFIXYOURMAC !
+                </p>
+                <div
+                  class="bg-danger mb-3"
+                  style="width: 60px; height: 5px"
+                ></div>
+                <h5>Benhamou Suheyl</h5>
+                <span><a href="https://g.co/kgs/yXeJrX ">Voir...</a></span>
+              </div>
+
+              <div class="testimonial-item">
+                <img
+                  class="img-fluid mb-4"
+                  src="Images/i19.jpeg"
+                  alt=""
+                />
+                <p class="fs-5">
+                  IFIXYOURMAC : les médecins des IPHONE ET AUTRES.  JE RECOMMANDE
+                </p>
+                <div
+                  class="bg-danger mb-3"
+                  style="width: 60px; height: 5px"
+                ></div>
+                <h5>Mohamed Fofana</h5>
+                <span><a href="https://g.co/kgs/3hhcfT ">Voir...</a></span>
+              </div>
+
+              <div class="testimonial-item">
+                <img
+                  class="img-fluid mb-4"
+                  src="Images/i20.png"
+                  alt=""
+                />
+                <p class="fs-5">
+                  Service impeccable 👌
+                  Très pro, rapide, efficace et sympathique. Ils m ont sauvé.
+                  merci 🙏
+                </p>
+                <div
+                  class="bg-danger mb-3"
+                  style="width: 60px; height: 5px"
+                ></div>
+                <h5>Mélanie Besnard</h5>
+                <span><a href="https://g.co/kgs/BuanNU ">Voir...</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    
+
+    <!-- Appointment Start -->
+    <div
+      class="container-fluid macbook my-5 py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-5 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+            <div class="border-start border-5 border-danger ps-4 mb-5">
+              <h6 class="text-white text-uppercase mb-2">iFixYourMac</h6>
+              <h1 class="display-6 text-white mb-0">
+                Ecrivez-Nous
+              </h1>
+            </div>
+            <p class="text-white mb-0">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+          </div>
+          <div class="col-lg-7 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+            <form>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control bg-dark border-0"
+                      id="gname"
+                      placeholder="Gurdian Name"
+                    />
+                    <label for="gname">Nom</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control bg-dark border-0"
+                      id="gmail"
+                      placeholder="Gurdian Email"
+                    />
+                    <label for="gmail">Email</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control bg-dark border-0"
+                      id="cname"
+                      placeholder="Child Name"
+                    />
+                    <label for="cname">Telephone</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control bg-dark border-0"
+                      id="cage"
+                      placeholder="Child Age"
+                    />
+                    <label for="cage">Type de service</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control bg-dark border-0"
+                      placeholder="Leave a message here"
+                      id="message"
+                      style="height: 100px"
+                    ></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary w-100 py-3" type="submit">
+                    envoyer
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h1 class="text-white mb-4">
+              <img src="Images/ifix3.png" alt="">
+            </h1>
+            <p>
+              Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+              ipsum et lorem et sit, sed stet lorem sit clita
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-square btn-outline-primary me-1" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D%252B212665464396%26data%3DARAahcO5BxQwoMewwERW29KCANYUii8rKbDbUaMu8Mmk4T0GR87AFPt4kYrDnxmmSk_gc-cXuaaxk4wl64fDosgRV1MfsmTh-dcozB4f6hvb8K4WdZezKx_nw7tRUmuK2bvJXT7ikXdqjdJ-x4d3q823_A%26source%3DFB_Page%26app%3Dfacebook%26entry_point%3Dpage_cta%26fbclid%3DIwAR2MdG1Pn0uj6jGqAp5-ip3gVFWWJfKbL5aIaGQz1F2Nifj6NCe2EsfmYrE&h=AT18nUnB-1kRI_7HMoHjoDjBB6_4K8-wjG3H7PsW8SXXICNShquXY2CqeYr0A2GAWMB8eh8bFo-P5v2laYg5mFs9QJvjh47zNBwkB0nI-cBAwWZAN4NLlaCfxJd4oNSmL4Z-eqF-s28"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a class="btn btn-square btn-outline-primary me-1" href="https://web.facebook.com/people/Ifixyourmac/100063612819197/?locale=hi_IN&paipv=0&eav=AfZcvaf7kvLEcK2ywG0s3tgiGCLDvTqlGAyoIiaPweAyE3Ddzebgkc-2wuQdLZMBh5g&_rdc=1&_rdr"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square btn-outline-primary me-1" href="https://instagram.com/ifixyourmac?igshid=NTc4MTIwNjQ2YQ=="
+                ><i class="fab fa-instagram"></i
+              ></a>
+              
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Adresse</h4>
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>QUARTIER BERGER, 47 Rue des Écoles, Casablanca
+            </p>
+            <p><i class="fa fa-phone-alt me-3"></i>+212665464396</p>
+            <p><i class="fa fa-envelope me-3"></i>brahimbassit@gmail.com</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">raccourcis</h4>
+            <a class="btn btn-link" href="about.html">A propos</a>
+            <a class="btn btn-link" href="contact.html">Contact</a>
+            <a class="btn btn-link" href="service.html">Nos Services</a>
+            
+          </div>
+          
+          
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a href="#">iFixYourMac</a>, All Right Reserved.
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
